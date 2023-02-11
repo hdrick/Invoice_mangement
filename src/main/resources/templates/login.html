@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+
+    <link rel="stylesheet" type="text/css" th:href="@{/custom-css/login.css}">
+
+    <!-- LOCAL bootstrap css-->
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}">
+    <!-- LOCAL jquery js -->
+    <script th:src="@{/jquery/jquery.min.js}"></script>
+    <!-- LOCAL popper js -->
+    <script th:src="@{/popper/popper.min.js}"></script>
+    <!-- LOCAL bootstrap js -->
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<!--    Main container-->
+    <div class="main-con">
+
+<!--        Header starts-->
+        <div class="header-con">
+            <div id="bx1">
+                <img id="h-logo" th:src="@{/icon/LOGO.png}" alt="Logo">
+            </div>
+            <div id="bx2">
+                <label id="logo-name">PIALEDA</label>
+            </div>
+        </div>
+
+<!--        Login starts-->
+        <div class="login-con">
+            <form>
+                <div class="form-title"><h1>LOGIN</h1></div>
+
+                <div class="form-username">
+                    <label>Username</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-password">
+                    <label>Password</label>
+                    <input type="password">
+                </div>
+
+                <div class="form-btn">
+                    <input type="submit" class="btn" value="Sign in" >
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
