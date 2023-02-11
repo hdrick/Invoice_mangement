@@ -2,17 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Admin Page</title>
 
-    <!-- Bootstrap link-->
-    <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" th:href="@{/custom-css/admin.css}">
+
+    <!-- LOCAL bootstrap css-->
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}">
+    <!-- LOCAL jquery js -->
+    <script th:src="@{/jquery/jquery.min.js}"></script>
+    <!-- LOCAL popper js -->
+    <script th:src="@{/popper/popper.min.js}"></script>
+    <!-- LOCAL bootstrap js -->
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+
 </head>
 <body>
-<h1>Welcome to Hosssme page useraasssssaas</h1>
-<h1>Welcome to Home page users</h1>
-<input type="text" name="" id="" placeholder="Usernamessss">
+<!--    Main container-->
+    <div class="main-con">
+        <!--        Header starts-->
+        <div class="header-con">
+            <div id="bx1">
+                <img id="h-logo" th:src="@{/icon/LOGO.png}" alt="Logo">
+            </div>
+            <div id="bx2">
+                <label id="logo-name">PIALEDA</label>
+            </div>
+        </div>
+        <!--        Main container 2 starts-->
+        <div class="main-con2">
+            <!--        Sidebar starts-->
+            <div class="sideBar-con">
+                <div>
+                    <img th:src="@{/icon/home.png}">
+                    <label>Dashboard</label>
+                </div>
+                <div>
+                    <img th:src="@{/icon/profile-user.png}">
+                    <label>User</label>
+                </div>
+                <div>
+                    <img th:src="@{/icon/audit.png}">
+                    <label>Audit trail</label>
+                </div>
+                <div>
+                    <img th:src="@{/icon/database.png}">
+                    <label>Backup</label>
+                </div>
+            </div>
+            <!--        content starts-->
+            <div class="content-con">
+
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
