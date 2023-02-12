@@ -33,10 +33,13 @@
                 </div>
             </div>
 
-            <div>
+            <div class="right-con">
                 <div>
-                    <i class="fa-solid fa-audio-description"></i>
-                    <a>Hendwrick Gonzales</a>
+                    <i class="fa-solid fa-user"></i>
+                    <a class="m-2" >Hendwrick Gonzales</a>
+                    <a href="#" class="" data-toggle="modal" data-target="#logoutModal">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
                 </div>
 
             </div>
@@ -45,22 +48,28 @@
         <div class="main-con2">
             <!--        Sidebar starts-->
             <div class="sideBar-con">
-                <div>
-                    <i class="fa-solid fa-house"></i>
-                    <i class="label">Dashboards</i>
+                <div class="sideBar-bx1">
+                    <div>
+                        <i class="fa-solid fa-house"></i>
+                        <i class="label">Dashboards</i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <i class="label">Users</i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-audio-description"></i>
+                        <i class="label">Audit trail</i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <i class="label">Backup</i>
+                    </div>
                 </div>
-                <div>
-                    <i class="fa-solid fa-user"></i>
-                    <i class="label">Users</i>
+                <div class="sideBar-bx1">
+                    <i class="label">Admin</i>
                 </div>
-                <div>
-                    <i class="fa-solid fa-audio-description"></i>
-                    <i class="label">Audit trail</i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-database"></i>
-                    <i class="label">Backup</i>
-                </div>
+
             </div>
             <!--        content starts-->
             <div class="content-con">
@@ -70,7 +79,7 @@
                     <div class="invoice-con con">
                         <div>
                             <h6>100</h6>
-                            <h4>Invoice</h4>
+                            <h4>Invoices</h4>
                         </div>
                         <div>
                             <i class="fa-solid fa-file-invoice"></i>
@@ -93,6 +102,27 @@
                         <div>
                             <i class="fa-solid fa-users"></i>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logout Modal -->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="logoutModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="logoutModalLabel">Logout</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Are you sure you want to logout?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn" style="background-color: #003D2B; color: white;">Logout</button>
                     </div>
                 </div>
             </div>
