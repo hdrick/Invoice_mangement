@@ -114,14 +114,31 @@ label{
     color: white;
 }
 
+.sideBar-con .sideBar-bx2{
+     display: flex;
+     justify-content: center;
+
+}
+.sideBar-con .sideBar-bx2 i{
+    font-style: normal;
+    color: #f3f3f3;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+}
+
 .sideBar-con .sideBar-bx1 div:hover{
     background-color: #f3f3f3;
     cursor: pointer;
 }
 
+
+
 .sideBar-con .sideBar-bx1 div:hover i{
     color: #003D2B;
 }
+
+
 /* sidebar end..*/
 .content-con{
     background-color: #f3f3f3;
