@@ -49,10 +49,10 @@ label{
     background-color: white;
     color: #003D2B;
     border: solid 1px black;
-    height: 70%;
-    width: 35%;
+    height: 340px;
+    width: 400px;
     border-radius: 10px;
-    padding: 2% 5% 5% 5%;
+    padding: 2% 4% 3% 4%;
 
     display: flex;
     flex-direction: column;
@@ -80,14 +80,27 @@ input[type=text], input[type=password]{
 }
 .form-password{
     height: 50px;
-    margin-top: 20%;
+    margin-top: 8%;
 
     display: flex;
     flex-direction: column;
 }
+.form-input{
+    border: none;
+    border-bottom: 2px solid #dce4ec;
+    color: #34495e;
+    font-size: 15px;
+    padding: 5px;
+    box-shadow: none;
+    background: none;
+    transition: border linear .2s, box-shadow linear .2s;
+    outline: none;
+    height: 35px;
+    width: 100%;
+}
 .form-btn{
     height: 50px;
-    margin-top: 20%;
+    margin-top: 8%;
 
     display: flex;
     justify-content: center;
@@ -103,7 +116,11 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-    border: solid 2px #003D2B;
     transition: 0.5s;
+    background-color: #3ceeac;
+    box-shadow: -1px 1px 0px 1px #003d2b;
+}
+.form-input:hover, .form-input:focus{
+border-bottom: 2px solid #3ceeac;
 }
 /* Login end..*/
