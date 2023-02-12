@@ -107,10 +107,11 @@ label{
 
 .records-con{
     display: flex;
+    margin-left: 2%;
 }
 
 .content-con .records-con .con{
-    width: 75%;
+    width: 25%;
     margin: 2%;
     padding: 2%;
     background-color: #003D2B;
