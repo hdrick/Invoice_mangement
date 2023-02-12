@@ -127,6 +127,14 @@ label{
     margin-bottom: 15%;
 }
 
+.sideBar-con .sideBar-bx2 i{
+    font-style: normal;
+    color: #f3f3f3;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+}
+
 .sideBar-con .sideBar-bx1 div:hover{
     background-color: #f3f3f3;
     cursor: pointer;
