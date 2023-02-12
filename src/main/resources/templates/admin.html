@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Admin Page</title>
+    <link rel="icon" type="image/png" th:href="@{/icon/PialedaLOGOcircle.png}"/>
+    <title>Admin</title>
 
     <link rel="stylesheet" type="text/css" th:href="@{/custom-css/admin.css}">
     <script th:src="@{/fontawesome/2302251f1c.js}" crossorigin="anonymous"></script>
@@ -23,11 +24,21 @@
     <div class="main-con">
         <!--        Header starts-->
         <div class="header-con">
-            <div id="bx1">
-                <img id="h-logo" th:src="@{/icon/LOGO.png}" alt="Logo">
+            <div class="left-con">
+                <div id="bx1">
+                    <img id="h-logo" th:src="@{/icon/LOGO.png}" alt="Logo">
+                </div>
+                <div id="bx2">
+                    <label id="logo-name">PIALEDA</label>
+                </div>
             </div>
-            <div id="bx2">
-                <label id="logo-name">PIALEDA</label>
+
+            <div>
+                <div>
+                    <i class="fa-solid fa-audio-description"></i>
+                    <a>Hendwrick Gonzales</a>
+                </div>
+
             </div>
         </div>
         <!--        Main container 2 starts-->
