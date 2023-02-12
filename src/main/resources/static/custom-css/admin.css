@@ -1,4 +1,3 @@
-
 .main-con{
     background-color: #00000;
     height:100vh;
@@ -47,11 +46,10 @@ label{
 
 /* main-con2 start..*/
 .main-con2{
-   border: solid 1px black;
-       height: 100%;
-       width: 100%;
+   height: 100%;
+   width: 100%;
 
-       display: flex;
+   display: flex;
 }
 
 /* sidebar start..*/
@@ -65,36 +63,76 @@ label{
 }
 
 .sideBar-con div{
-    margin: 5%;
+    padding: 8%;
+
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: left;
-}
-.sideBar-con div:hover{
-    background-color: #f3f3f3;
-}
-.sideBar-con div:hover img{
-    background-color: #003D2B;
-}
-.sideBar-con div:hover label{
-    color: #003D2B;
+    align-items: center;
 }
 
-.sideBar-con div label{
+.sideBar-con div .label{
     margin-left: 10%;
     color: white;
     font-size: 1rem;
+    font-style: normal;
+    font-weight: bolder;
+
 }
-.sideBar-con div img{
-    width: 30px;
-    height: 30px;
-    color: black;
+.sideBar-con div i{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
 }
 
+.sideBar-con div:hover{
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+
+.sideBar-con div:hover i{
+    color: #003D2B;
+}
 /* sidebar end..*/
 .content-con{
     background-color: #f3f3f3;
     height: 100%;
     width: 100%;
+    color: #003D2B;
+
+    padding-left: 2%;
+}
+
+.records-con{
+    display: flex;
+}
+
+.content-con .records-con .con{
+    width: 75%;
+    margin: 2%;
+    padding: 2%;
+    background-color: #003D2B;
+    border-radius: 10px;
+    color: #f3f3f3;
+
+    display: flex;
+    flex-direction: row;
+justify-content: space-evenly;
+    align-items: center;
+}
+.content-con .records-con .con i{
+    font-size: 2.5rem;
+}
+
+.invoice-con{
+
+
+}
+.user-con{
+
+}
+.supplier-con{
 
 }
