@@ -12,14 +12,20 @@ public class MainController {
     }
 
 //    ADMIN
-    @GetMapping("admin/dashboard")
+    @GetMapping("admin-dashboard")
     public String dashboard(){
         return "admin/dashboard";
     }
 
-    @GetMapping("admin/users")
+    @GetMapping("admin-users")
     public String users(){
         return "admin/users";
+    }
+
+//    VR
+    @GetMapping("vr-users")
+    public String vr(){
+        return "vr-staff/vr";
     }
 
 }
