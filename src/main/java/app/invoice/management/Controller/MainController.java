@@ -22,9 +22,7 @@ public class MainController {
         return "admin/users";
     }
 
-
-
-
+//    VR
     @GetMapping("vr-users")
     public String vr(){
         return "vr-staff/vr";
